@@ -26,6 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log("xbtn click");
     console.log(sum(a, b));
     console.log(product(a, b));
-    c_value.val(a_value.val() * b_value.val());
+    c_value.val(product(a_value.val(), b_value.val()));
   })
 })
