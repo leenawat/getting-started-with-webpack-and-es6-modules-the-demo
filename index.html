@@ -1,45 +1,58 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Getting started with webpack and ES6 modules – the demo</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-            * {
-                box-sizing: border-box;
-            }
-            body {
-                font-family: sans-serif;
-                margin: 0 auto;
-                max-width: 30rem;
-            }
-            a {
-                color: RoyalBlue;
-            }
-            .results {
-                background-color: WhiteSmoke;
-                display: inline-block;
-                margin: 1rem 0;
-                padding: .5rem 1.5rem;
-                width: 100%;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Getting started with webpack and ES6 modules – the demo</h1>
-        <button id="xbtn">xbtn</button>
-        <div class="results">
-            <p id="resultGreeting"></p>
-            <p id="resultSum"></p>
-            <p id="resultProduct"></p>
-        </div>
-        <ul>
-            <li>Read <a href="https://medium.com/@svinkle/getting-started-with-webpack-and-es6-modules-c465d053d988">about this demo and how it works</a>.</li>
-            <li>Check out this <a href="https://github.com/svinkle/getting-started-with-webpack-and-es6-modules-the-demo/">demo source code</a>.</li>
-            <li>Made with 💖 by <a href="https://twitter.com/svinkle">@svinkle</a>.</li>
-        </ul>
 
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="dist/bundle.js"></script>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Getting started with webpack and ES6 modules – the demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            margin: 0 auto;
+            max-width: 30rem;
+        }
+
+        a {
+            color: RoyalBlue;
+        }
+
+        .results {
+            background-color: WhiteSmoke;
+            display: inline-block;
+            margin: 1rem 0;
+            padding: .5rem 1.5rem;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Getting started with webpack and ES6 modules – the demo</h1>
+    <label for="a_value">a </label><input type="text" id="a_value" class="form-control">
+    <label for="b_value">b </label><input type="text" id="b_value" class="form-control">
+    <hr>
+    <button id="xbtn" class="btn btn-primary btn-block">xbtn</button><br />
+    <label for="c_value">c </label><input type="text" id="c_value" class="form-control">
+
+    <div class="results">
+        <p id="resultGreeting"></p>
+        <p id="resultSum"></p>
+        <p id="resultProduct"></p>
+    </div>
+    <ul>
+        <li>Read <a href="https://medium.com/@svinkle/getting-started-with-webpack-and-es6-modules-c465d053d988">about this demo and how it works</a>.</li>
+        <li>Check out this <a href="https://github.com/svinkle/getting-started-with-webpack-and-es6-modules-the-demo/">demo source code</a>.</li>
+        <li>Made with 💖 by <a href="https://twitter.com/svinkle">@svinkle</a>.</li>
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="dist/bundle.js"></script>
+</body>
+
 </html>
